@@ -61,7 +61,7 @@ hi s_comp_sep background: -moz-linear-gradient(60deg, #2aa198, #fdf6e3) !importa
 
 " Status Line                                                       {{{1
 " ----------------------------------------------------------------------
-hi -l=s_base00,s_base2_back StatusLineNormal
+hi -l=s_base01,s_base0_back StatusLineNormal
 hi -l=s_base3,s_orange_back StatusLineBroken
 hi -l=s_base3,s_blue_back StatusLineSecure
 hi -l=s_base3,s_violet_back StatusLineExtended
@@ -75,10 +75,10 @@ hi -l=s_base00,s_base3_back Normal
 hi -l=s_base3,s_magenta_back CompItem[selected]
 " background is s_base03
 hi CompItem:nth-child(2n+1) -a background: rgba(0, 43, 54, .04);
-hi -l=s_base3,s_comp_title CompTitle
+hi -l=s_base3,s_base0 CompTitle
 hi -l=s_base1 CompDesc -a
 hi -l=s_base1 Preview -a
-hi -l=s_comp_sep CompTitleSep height: 2px;
+hi -l=s_base0_back CompTitleSep height: 1px;
 hi -l=s_base00,s_base3_back Message
 hi -l=s_base3,s_yellow_back WarningMsg
 hi -l=s_base3,s_magenta_back ErrorMsg
